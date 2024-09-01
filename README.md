@@ -13,29 +13,28 @@ O foco do projeto é:
 
 Para simplificar o processo, optei por copiar diretamente os dados do PDF do resultado e colá-los na função, sem a necessidade de uma leitura automática do arquivo PDF. Embora existam maneiras mais sofisticadas de fazer isso (como ler diretamente de um arquivo PDF usando bibliotecas como `pdfplumber` ou `PyPDF2`), o foco aqui é manter o projeto simples e fácil de executar.
 
-## Passo a Passo para Executar
+## Executando no Google Colab
 
-1. **Instalar dependências**
-   - Certifique-se de ter o Python instalado.
-   - Instale a biblioteca `pandas`, que será utilizada para manipulação de dados. Você pode instalá-la com o comando:
-     ```bash
-     pip install pandas
-     ```
+Se preferir rodar este projeto no Google Colab, siga os passos abaixo:
 
-2. **Copiar e colar os dados**
-   - Extraia os dados do PDF do resultado final do concurso.
-   - Copie os dados e cole-os diretamente dentro da função `resultado_final`, como uma string. Por exemplo:
+1. **Acessar o Google Colab**
+   - Vá para o [Google Colab](https://colab.research.google.com/#create=true). Isso abrirá um novo notebook com um espaço pronto para você digitar os códigos.
+
+2. **Adicionar e rodar o código no Colab**
+   - Cole o código Python no notebook. Certifique-se de que o código da função `resultado_final()` está correto. O Colab já tem o Python e a biblioteca `pandas` instalada, então você pode pular a instalação.
+
+3. **Inserir os dados do PDF**
+   - Copie os dados do PDF e insira-os no formato de string dentro da função, como no exemplo:
      ```python
-     dados = """
-     Nome;Inscricao;Pontuacao;Classificacao Micro-Macrorregiao;PCD;PPP
-     Fulano de Tal;123456;98;1;Sim;Nao
-     Ciclano de Tal;654321;89;2;Nao;Sim
-     """
-     resultado_final(dados)
+     resultado_final("""Aarao Aata Leal Guimaraes; 571190589-7; 74,5; 905 ; - ; - /Abel Barbosa Neto Souto; 571022340-0; 75,0; 850 ; - ; -
+     /Abimael de Queiroz Lima; 570068440-7; 66,0; 3367 ; - ; 241 /Abner Filipe Cunha Ribeiro; 572090305-5; 72,5; 1279 ; - ; -
+     /Abner Silveira de Freitas; 571925980-4; 73,5; 1055 ; - ; - /Abraao Freitas Medeiros; 571460406-8; 76,0; 679 ; - ; - /Aciria
+     Borges Alves Rufino; 570525714-0; 73,0; 1177 ; - ; - /Adalberto Luis Navarrete Filho; 570925900-3; 88,0; 15 ; - ; - /Adam
+     Basilio; 570498450-4; 74,5; 947 ; - ; -""")
      ```
 
-3. **Executar o script**
-   - Basta rodar o script Python que contém a função `resultado_final()`. O resultado será exibido como uma tabela, mostrando a classificação dos candidatos de acordo com a pontuação.
+4. **Executar o notebook**
+   - Clique no botão de "play" à esquerda da célula para executar o código. O resultado será exibido diretamente no notebook como uma tabela interativa.
 
 ## Estrutura do Projeto
 
