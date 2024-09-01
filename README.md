@@ -1,4 +1,5 @@
-# Análise de Resultado Final do Concurso para TI - Banco do Brasil
+# Análise de Resultado Final do Concurso para TI - Banco do Brasil ![image](https://github.com/user-attachments/assets/d09a88c5-9bef-4d07-bd5f-be7d16941717)
+
 
 Este é um simples projeto em Python que visa analisar o resultado final do concurso para a área de Tecnologia da Informação (TI) do Banco do Brasil. O objetivo do projeto é transformar os dados do concurso em uma tabela ordenada pela pontuação dos candidatos, permitindo uma visualização clara e rápida dos resultados.
 
