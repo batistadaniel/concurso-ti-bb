@@ -41,10 +41,6 @@ Se preferir rodar este projeto no Google Colab, siga os passos abaixo:
 
 - **função `resultado_final`:** Organiza os dados em um DataFrame, classifica os candidatos por pontuação e exibe a tabela final.
 
-## Contribuições
-
-Este é um projeto simples e direto, mas caso deseje melhorar ou adicionar novas funcionalidades, sinta-se à vontade para comentar!
-
 ## Resumo Classificados - 2022
 
 | Categoria | Primeiro | Corte |
@@ -81,3 +77,8 @@ Este é um projeto simples e direto, mas caso deseje melhorar ou adicionar novas
 | PPP       | *     |
 
 *\*Todos foram chamados na primeira convocação*
+
+
+## Contribuições
+
+Este é um projeto simples e direto, mas caso deseje melhorar ou adicionar novas funcionalidades, sinta-se à vontade para comentar!
