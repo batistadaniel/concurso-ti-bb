@@ -44,3 +44,40 @@ Se preferir rodar este projeto no Google Colab, siga os passos abaixo:
 ## Contribuições
 
 Este é um projeto simples e direto, mas caso deseje melhorar ou adicionar novas funcionalidades, sinta-se à vontade para comentar!
+
+## Resumo Classificados - 2022
+
+| Categoria | Primeiro | Corte |
+|-----------|----------|-------|
+| Ampla     | 98,5     | 71    |
+| PCD       | 81       | 51    |
+| PPP       | 88       | 51,5  |
+
+
+## Resumo Cadastro Reserva - 2022
+
+| Categoria | Corte |
+|-----------|-------|
+| Ampla     | 68    |
+| PCD       | *     |
+| PPP       | 57    |
+
+*\*Todos foram chamados na primeira convocação*
+
+## Resumo Classificados - 2021
+
+| Categoria | Primeiro | Corte |
+|-----------|----------|-------|
+| Ampla     | 88       | 67,5  |
+| PCD       | 83,5     | 60,5  |
+| PPP       | 78       | 52,5  |
+
+## Resumo Cadastro Reserva - 2021
+
+| Categoria | Corte |
+|-----------|-------|
+| Ampla     | 59,5  |
+| PCD       | *     |
+| PPP       | *     |
+
+*\*Todos foram chamados na primeira convocação*
