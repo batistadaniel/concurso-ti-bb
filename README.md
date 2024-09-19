@@ -8,7 +8,7 @@ Este é um simples projeto em Python que visa analisar o resultado final do conc
 O foco do projeto é:
 - Organizar os dados extraídos do PDF do resultado do concurso.
 - Classificar os candidatos com base na pontuação.
-- Visualizar os dados de forma tabular e ordenada.
+- Filtrar as últimas pessoas classificadas em ampla concorrência e nas cotas PCD e PPP.
 
 ## Decisão de Implementação
 
@@ -22,24 +22,30 @@ Se preferir rodar este projeto no Google Colab, siga os passos abaixo:
    - Vá para o [Google Colab](https://colab.research.google.com/#create=true). Isso abrirá um novo notebook com um espaço pronto para você digitar os códigos.
 
 2. **Adicionar e rodar o código no Colab**
-   - Cole o código Python no notebook. Certifique-se de que o código da função `resultado_final()` está correto. O Colab já tem o Python e a biblioteca `pandas` instalada, então você pode pular a instalação.
+   - Cole o código Python no notebook. 
 
 3. **Inserir os dados do PDF**
-   - Copie os dados do PDF e insira-os no formato de string dentro da função, como no exemplo:
+   - Copie os dados do PDF e insira-os na variavél 'dados', como no exemplo:
      ```python
-     resultado_final("""Aarao Aata Leal Guimaraes; 571190589-7; 74,5; 905 ; - ; - /Abel Barbosa Neto Souto; 571022340-0; 75,0; 850 ; - ; -
+     dados = """Aarao Aata Leal Guimaraes; 571190589-7; 74,5; 905 ; - ; - /Abel Barbosa Neto Souto; 571022340-0; 75,0; 850 ; - ; -
      /Abimael de Queiroz Lima; 570068440-7; 66,0; 3367 ; - ; 241 /Abner Filipe Cunha Ribeiro; 572090305-5; 72,5; 1279 ; - ; -
      /Abner Silveira de Freitas; 571925980-4; 73,5; 1055 ; - ; - /Abraao Freitas Medeiros; 571460406-8; 76,0; 679 ; - ; - /Aciria
      Borges Alves Rufino; 570525714-0; 73,0; 1177 ; - ; - /Adalberto Luis Navarrete Filho; 570925900-3; 88,0; 15 ; - ; - /Adam
-     Basilio; 570498450-4; 74,5; 947 ; - ; -""")
+     Basilio; 570498450-4; 74,5; 947 ; - ; -"""
      ```
+3.1 Use ```resultado = ResultadoFinal(dados)``` para instanciar a classe.
+
+3.2 Use ```resultado.resultado_final()``` para exibir o resultado final completo.
+
+3.3 Use ```resultado.ultima_pessoa_sem_cota()``` para exibir informacoes sobre o corte para ampla concorrencia.
+
+3.4 Use ```resultado.ultima_pessoa_cota_pcd()``` para exibir informacoes sobre o corte para vagas pcd.
+
+3.5 Use ```resultado.ultima_pessoa_cota_ppp()``` para exibir informacoes sobre o corte para vagas ppp.
 
 4. **Executar o notebook**
    - Clique no botão de "play" à esquerda da célula para executar o código. O resultado será exibido diretamente no notebook como uma tabela interativa.
 
-## Estrutura do Projeto
-
-- **função `resultado_final`:** Organiza os dados em um DataFrame, classifica os candidatos por pontuação e exibe a tabela final.
 
 ## Resumo Classificados - 2022
 
